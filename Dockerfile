@@ -1,5 +1,5 @@
 # Use fedora as we maintain our tools a bit better there
-FROM quay.io/cgwalters/coreos-assembler AS build
+FROM quay.io/sayanchowdhury/coreos-assembler AS build
 
 COPY RPM-GPG-KEY-* /etc/pki/rpm-gpg/
 COPY . /srv/build/
