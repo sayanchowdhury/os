@@ -1,5 +1,5 @@
 def TIMER = "H H/3 * * *"
-def NODE = "rhcos-jenkins"
+def NODE = "master"
 def DOCKER_IMG = "quay.io/cgwalters/coreos-assembler"
 def DOCKER_ARGS = "-v /srv:/srv --privileged --device /dev/kvm"
 
